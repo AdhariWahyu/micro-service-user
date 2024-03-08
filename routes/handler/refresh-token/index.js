@@ -1,6 +1,7 @@
 const create = require('./create');
-// const getToken = require('./getToken');
+const getToken = require('./getToken');
 
 module.exports = {
-  create
+  create,
+  getToken
 }
